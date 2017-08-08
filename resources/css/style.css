@@ -16,8 +16,8 @@
   background-color: white;
   position: fixed;
   z-index: 2;
+  margin-top: -10px;
 }
-/* Why does this not reach the top of the page? */
 /* Why is there a white border and the content
 which doesn't fill up the whole screen? */
 
