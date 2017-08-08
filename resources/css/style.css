@@ -1,0 +1,232 @@
+/*border: 1px solid red*/
+/* BEGIN HEADER */
+.header a{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.header{
+  display: inline-flex;
+  border-bottom: 1px solid black;
+  padding: 10px 0px;
+  width: 100%;
+  justify-content: space-between;
+  background-color: white;
+  position: fixed;
+  z-index: 2;
+}
+/* Why does this not reach the top of the page? */
+/* Why is there a white border and the content
+which doesn't fill up the whole screen? */
+
+#logoname{
+  height: 100%;
+  display: flex;
+}
+
+#logo{
+  height: 100%;
+  margin-left: 20px;
+}
+
+#name{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: mediumaquamarine;
+  padding: 10px;
+  margin-left: 15px;
+}
+
+#secgroup{
+  display: flex;
+}
+
+.sections{
+  padding: 10px;
+  display: inline-block;
+  margin-top: 12px;
+}
+/* END HEADER */
+/* How can I make it so there is a side scroll instead
+of the third column going to the bottom of the page? */
+
+/* BEGIN ARTICLES */
+.allarticles{
+  display: flex;
+  justify-content: space-around;
+  max-height: 1150px;
+  padding-top: 40px;
+  flex-wrap: wrap;
+  z-index: 1;
+  padding-top: 135px;
+  overflow: scroll;
+}
+
+#twocolumns{
+  display: flex;
+  flex-direction: column;
+}
+
+#tuna{
+  height: 550px;
+}
+
+#halves{
+  display: flex;
+  flex-direction: row;
+  width: 315px;
+  justify-content: space-between;
+}
+
+.column .large{
+  display: flex;
+  width: 630px;
+  flex-direction: column;
+}
+
+.column .medium{
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+}
+
+.column .small{
+  display: flex;
+  width: 240px;
+  flex-direction: column;
+}
+
+.text{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.pictitle{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  align-items: center;
+  text-align: center;
+  padding-top: 70px;
+}
+
+#cattitle{
+  padding-top: 90px;
+}
+
+.artic1{
+  justify-content: center;
+}
+
+#tunatitle{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  padding-left: 10px;
+  padding-top: 40px;
+}
+
+.half1{
+  max-width: 300px;
+}
+
+#orcatitle,#orcaarticle{
+  max-width: 300px;
+  padding-right: 30px;
+}
+
+#burgertitle,#burgerarticle{
+  max-width: 300px;
+}
+
+.lefthalf,.righthalf{
+  display: flex;
+  flex-direction: column;
+}
+
+#tunapic{
+  display: flex;
+  background-image: url("../pour.png");
+  height: 300px;
+}
+
+#earthspinpic{
+  background-image: url("../fall.png");
+  height: 300px;
+  width: 300px;
+  margin-top: 20px;
+}
+
+#cameramemorypic{
+  background-image: url("../camera.png");
+  height: 300px;
+  width: 300px;
+  margin-top: 20px;
+}
+
+#catcontrolpic{
+  background-image: url("../catceo.png");
+  height: 300px;
+  margin-top: 20px;
+}
+
+#newsbites{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.blurb{
+  display: flex;
+  flex-direction: column;
+  background-color: WhiteSmoke;
+  font-family: verdana;
+  font-size: 12px;
+  color: dimgray;
+  padding: 10px;
+  border-bottom: 1px Solid Black;
+}
+/* END ARTICLES */
+
+/* BEGIN FOOTER */
+#containerfoot{
+  display: flex;
+  width: auto;
+  height: 400px;
+  background-color: MediumAquamarine;
+  margin-top: 80px;
+  font-family: Verdana;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#toplinefoot{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+#mytbot{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+#containerfoot a{
+  text-decoration: underline;
+  padding: 10px;
+}
+
+#footworld{
+  padding-left: 20px;
+}
+/* END FOOTER */
