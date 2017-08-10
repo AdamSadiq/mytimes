@@ -77,7 +77,6 @@ of the third column going to the bottom of the page? */
 #halves{
   display: flex;
   flex-direction: row;
-  width: 315px;
   justify-content: space-between;
 }
 
